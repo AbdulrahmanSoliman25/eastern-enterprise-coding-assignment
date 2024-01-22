@@ -21,7 +21,8 @@ The application follows the (onion) architecture with screaming architecture pri
 ```
 - kindely make sure that you have docker && docker compose installed on your machine, then run the following commands in the terminal:
 
-- 'docker compose up -d'
+- 'docker-compose up -d'
+- 'docker-compose exec composer composer install'
 - 'docker-compose exec php php artisan optimize'
 - 'docker-compose exec php php artisan key:generate'
 - 'docker-compose exec php php artisan migrate --seed'
